@@ -1,6 +1,9 @@
 https://github.com/dhasatest/Inetbanking.git
 
 pwd Dhasa@123
+git config --global user.name "Dhasa"
+git config --global user.email "dhasa@ymail.com"
+
 
 create a new repository on the command line
 =========================================
@@ -18,3 +21,14 @@ git push -u origin mai
 git remote add origin https://github.com/dhasatest/Inetbanking.git
 git branch -M main
 git push -u origin main
+
+==========================================================================
+GIT Commands
+git init --> Create an empty repository Local.
+git remote add origin "https://github.com/dhasatest/Inetbanking.git"
+git status
+git add -A -- > add all files into staging area
+
+git commit -m "commit comments"
+
+
