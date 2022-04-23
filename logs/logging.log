@@ -89,4 +89,46 @@
   2022-04-22 16:54:38 INFO  inetbanking:23 - Entering Username and Password
   2022-04-22 16:54:39 INFO  inetbanking:26 - Click Submit Button
   2022-04-22 16:54:42 WARN  inetbanking:33 - Loging failed
+  2022-04-23 20:18:40 INFO  inetbanking:16 - Entering Username and Password
+  2022-04-23 20:19:08 INFO  inetbanking:23 - Entering Username and Password
+  2022-04-23 20:19:13 INFO  inetbanking:23 - Entering Username and Password
+  2022-04-23 20:26:07 INFO  inetbanking:16 - Entering Username and Password
+  2022-04-23 20:27:11 INFO  inetbanking:16 - Entering Username and Password
+  2022-04-23 20:28:56 INFO  inetbanking:16 - Entering Username and Password
+  2022-04-23 20:28:56 INFO  inetbanking:19 - Click Submit Button
+  2022-04-23 20:29:03 INFO  inetbanking:22 - Verifing the page tile 
+  2022-04-23 20:45:41 INFO  inetbanking:16 - Entering Username and Password
+  2022-04-23 20:45:41 INFO  inetbanking:19 - Click Submit Button
+  2022-04-23 20:45:44 INFO  inetbanking:22 - Verifing the page tile 
+  2022-04-23 20:56:56 INFO  inetbanking:16 - Entering Username and Password
+  2022-04-23 20:56:56 INFO  inetbanking:19 - Click Submit Button
+  2022-04-23 20:56:59 INFO  inetbanking:22 - Verifing the page tile 
+  2022-04-23 21:11:47 INFO  inetbanking:16 - Entering Username and Password
+  2022-04-23 21:11:48 INFO  inetbanking:19 - Click Submit Button
+  2022-04-23 21:11:52 INFO  inetbanking:22 - Verifing the page tile 
+  2022-04-23 21:14:10 INFO  inetbanking:16 - Entering Username and Password
+  2022-04-23 21:14:11 INFO  inetbanking:19 - Click Submit Button
+  2022-04-23 21:14:13 INFO  inetbanking:22 - Verifing the page tile 
+  2022-04-23 21:15:27 INFO  inetbanking:16 - Entering Username and Password
+  2022-04-23 21:22:11 INFO  inetbanking:16 - Entering Username and Password
+  2022-04-23 21:22:24 INFO  inetbanking:19 - Click Submit Button
+  2022-04-23 21:22:26 INFO  inetbanking:22 - Verifing the page tile 
+  2022-04-23 21:25:08 INFO  inetbanking:16 - Entering Username and Password
+  2022-04-23 21:25:22 INFO  inetbanking:19 - Click Submit Button
+  2022-04-23 21:25:24 INFO  inetbanking:22 - Verifing the page tile 
+  2022-04-23 21:27:22 INFO  inetbanking:16 - Entering Username and Password
+  2022-04-23 21:27:23 INFO  inetbanking:19 - Click Submit Button
+  2022-04-23 21:27:26 INFO  inetbanking:22 - Verifing the page tile 
+  2022-04-23 21:36:25 INFO  inetbanking:16 - Entering Username and Password
+  2022-04-23 21:36:25 INFO  inetbanking:19 - Click Submit Button
+  2022-04-23 21:36:31 INFO  inetbanking:22 - Verifing the page tile 
+  2022-04-23 21:38:01 INFO  inetbanking:16 - Entering Username and Password
+  2022-04-23 21:38:01 INFO  inetbanking:19 - Click Submit Button
+  2022-04-23 21:38:18 INFO  inetbanking:22 - Verifing the page tile 
+  2022-04-23 21:39:09 INFO  inetbanking:23 - Entering Username and Password
+  2022-04-23 21:39:09 INFO  inetbanking:26 - Click Submit Button
+  2022-04-23 21:40:14 INFO  inetbanking:40 - Login Pass
+  2022-04-23 21:40:19 INFO  inetbanking:23 - Entering Username and Password
+  2022-04-23 21:40:23 INFO  inetbanking:26 - Click Submit Button
+  2022-04-23 21:40:25 WARN  inetbanking:33 - Loging failed
   

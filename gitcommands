@@ -1,6 +1,11 @@
 https://github.com/dhasatest/Inetbanking.git
 
+
+
 pwd Dhasa@123
+
+Token : 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
+
 git config --global user.name "Dhasa"
 git config --global user.email "dhasa@ymail.com"
 
@@ -21,6 +26,13 @@ git push -u origin mai
 git remote add origin https://github.com/dhasatest/Inetbanking.git
 git branch -M main
 git push -u origin main
+
+git pull origin master -- > pulls file from github 
+
+
+
+
+
 
 ==========================================================================
 GIT Commands
