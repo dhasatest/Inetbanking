@@ -1,0 +1,20 @@
+https://demo.guru99.com/V1/index.php
+
+User ID : 	mngr399908
+Password : 	ajyhajA
+
+
+1)pom.xml
+	Selenium
+	Webdriver
+	log4j
+	testng
+	
+2) Folder Structure
+	com.inetbanking.pageObjects
+	com.inetbanking.testCases
+	com.inetbanking.testData
+	com.inetbanking.utilities
+
+
+
