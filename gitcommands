@@ -31,4 +31,6 @@ git add -A -- > add all files into staging area
 
 git commit -m "commit comments"
 
+git push -u origin master
+
 
