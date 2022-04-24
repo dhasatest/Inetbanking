@@ -1,66 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-23T21:15:06 IST" name="InetBanking" finished-at="2022-04-23T21:15:33 IST" duration-ms="26585">
+  <suite started-at="2022-04-24T13:12:59 IST" name="InetBanking" finished-at="2022-04-24T13:14:56 IST" duration-ms="116504">
     <groups>
     </groups>
-    <test started-at="2022-04-23T21:15:06 IST" name="BankingApp Test" finished-at="2022-04-23T21:15:33 IST" duration-ms="26585">
+    <test started-at="2022-04-24T13:12:59 IST" name="BankingApp Test" finished-at="2022-04-24T13:14:56 IST" duration-ms="116504">
       <class name="com.inetbanking.testCases.TC_001_Login">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_001_Login@158d2680]" started-at="2022-04-23T21:15:06 IST" name="setup" finished-at="2022-04-23T21:15:27 IST" duration-ms="21024" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_001_Login@3e58a80e]" started-at="2022-04-24T13:12:59 IST" name="setup" finished-at="2022-04-24T13:13:45 IST" duration-ms="45336" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:com.inetbanking.testCases.TC_001_Login@158d2680]" started-at="2022-04-23T21:15:27 IST" name="loginTest" finished-at="2022-04-23T21:15:33 IST" duration-ms="5174" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method signature="loginTest()[pri:0, instance:com.inetbanking.testCases.TC_001_Login@3e58a80e]" started-at="2022-04-24T13:13:46 IST" name="loginTest" finished-at="2022-04-24T13:13:50 IST" duration-ms="4445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inetbanking.testCases.TC_001_Login@3e58a80e]" started-at="2022-04-24T13:13:50 IST" name="tearDown" finished-at="2022-04-24T13:13:52 IST" duration-ms="1767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.inetbanking.testCases.TC_001_Login -->
+      <class name="com.inetbanking.testCases.TC_003_AddNewCustomer">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_003_AddNewCustomer@9f116cc]" started-at="2022-04-24T13:14:26 IST" name="setup" finished-at="2022-04-24T13:14:41 IST" duration-ms="14665" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addNewCustomer()[pri:0, instance:com.inetbanking.testCases.TC_003_AddNewCustomer@9f116cc]" started-at="2022-04-24T13:14:41 IST" name="addNewCustomer" finished-at="2022-04-24T13:14:55 IST" duration-ms="13886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inetbanking.testCases.TC_003_AddNewCustomer@9f116cc]" started-at="2022-04-24T13:14:55 IST" name="tearDown" finished-at="2022-04-24T13:14:56 IST" duration-ms="1082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.inetbanking.testCases.TC_003_AddNewCustomer -->
+      <class name="com.inetbanking.testCases.TC_002_Login">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_002_Login@67d48005]" started-at="2022-04-24T13:13:52 IST" name="setup" finished-at="2022-04-24T13:14:12 IST" duration-ms="20114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_002_Login@67d48005]" started-at="2022-04-24T13:14:17 IST" name="loginTest" data-provider="loginData" finished-at="2022-04-24T13:14:23 IST" duration-ms="6271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr399908]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ajyhajA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_002_Login@67d48005]" started-at="2022-04-24T13:14:23 IST" name="loginTest" data-provider="loginData" finished-at="2022-04-24T13:14:25 IST" duration-ms="1968" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dhasa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Naga]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='uid']"}
-  (Session info: chrome=99.0.4844.74)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.3', revision: '7b1ebf28ef'
-System info: host: 'dhasa', ip: '192.168.43.54', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-27-generic', java.version: '11.0.14'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [64167a64a320bd71c989a127c586d5d7, findElement {using=name, value=uid}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: /tmp/.com.google.Chrome.bLdlu8}, goog:chromeOptions: {debuggerAddress: localhost:40543}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:40543/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 64167a64a320bd71c989a127c586d5d7]]>
+              <![CDATA[expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='uid']"}
-  (Session info: chrome=99.0.4844.74)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.3', revision: '7b1ebf28ef'
-System info: host: 'dhasa', ip: '192.168.43.54', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-27-generic', java.version: '11.0.14'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [64167a64a320bd71c989a127c586d5d7, findElement {using=name, value=uid}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: /tmp/.com.google.Chrome.bLdlu8}, goog:chromeOptions: {debuggerAddress: localhost:40543}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:40543/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 64167a64a320bd71c989a127c586d5d7
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at com.sun.proxy.$Proxy18.sendKeys(Unknown Source)
-at com.inetbanking.pageObjects.LoginPage.enterUsername(LoginPage.java:34)
-at com.inetbanking.testCases.TC_001_Login.loginTest(TC_001_Login.java:17)
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at com.inetbanking.testCases.TC_002_Login.loginTest(TC_002_Login.java:34)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -91,15 +130,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inetbanking.testCases.TC_001_Login@158d2680]" started-at="2022-04-23T21:15:33 IST" name="tearDown" finished-at="2022-04-23T21:15:33 IST" duration-ms="344" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inetbanking.testCases.TC_002_Login@67d48005]" started-at="2022-04-24T13:14:25 IST" name="tearDown" finished-at="2022-04-24T13:14:26 IST" duration-ms="1015" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.inetbanking.testCases.TC_001_Login -->
+      </class> <!-- com.inetbanking.testCases.TC_002_Login -->
     </test> <!-- BankingApp Test -->
   </suite> <!-- InetBanking -->
 </testng-results>

@@ -82,10 +82,10 @@ public class AddNewCustomerPage {
 		rdoMale.click();
 	}
 	
-	public void enterDob(String mm, String dd, String yy) {
+	public void enterDob(String mm, String dd, String yyyy) {
 		dtpDob.sendKeys(mm);
 		dtpDob.sendKeys(dd);
-		dtpDob.sendKeys(yy);
+		dtpDob.sendKeys(yyyy);
 	}
 	
 	public void enterAddress(String addr) {
