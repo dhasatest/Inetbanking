@@ -50,7 +50,7 @@ public class BaseClass {
 	
 	@AfterClass
 	public void tearDown() {
-		driver.quit();
+		//driver.quit();
 	}
 	
 	

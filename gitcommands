@@ -1,10 +1,11 @@
 https://github.com/dhasatest/Inetbanking.git
 
-
+https://github.com/dhasatest/Samples.git
 
 pwd Dhasa@123
 
-Token : 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
+Token : 
+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
 
 git config --global user.name "Dhasa"
 git config --global user.email "dhasa@ymail.com"
@@ -46,3 +47,5 @@ git commit -m "commit comments"
 git push -u origin master
 
 
+	
+	

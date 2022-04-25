@@ -59,6 +59,10 @@ public class AddNewCustomerPage {
 	@CacheLookup
 	WebElement txtEmail;
 	
+	@FindBy(name="password")
+	@CacheLookup
+	WebElement txtEmailPwd;
+	
 	@FindBy(name="sub")
 	@CacheLookup
 	WebElement btnSubmit;
@@ -67,6 +71,10 @@ public class AddNewCustomerPage {
 	@FindBy(name="res")
 	@CacheLookup
 	WebElement btnReset;
+
+	@FindBy(xpath="//table[@id='customer']//td[contains(text(),'Customer ID')]/following-sibling::td")
+	@CacheLookup
+	WebElement newCustId;
 	
 	
 	public void clickAddNewCustomer() {
@@ -112,12 +120,20 @@ public class AddNewCustomerPage {
 		txtEmail.sendKeys(email);
 	}
 	
+	public void enterEmailPassword(String emailpwd) {
+		txtEmailPwd.sendKeys(emailpwd);
+	}
+	
 	public void clickSubmit() {
 		btnSubmit.click();
 	}
 	
 	public void clickReset() {
 		btnReset.click();
+	}
+	
+	public String newCustId() {
+		return newCustId.getText();
 	}
 
 }
